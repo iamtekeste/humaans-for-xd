@@ -51,7 +51,7 @@ class Humaaans extends React.Component {
       );
     });
     return (
-      <div  className="all-humaaans">
+      <div className="all-humaaans">
         {allHumaaans.length > 0 ? (
           allHumaaans
         ) : (

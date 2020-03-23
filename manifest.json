@@ -11,6 +11,10 @@
       "app": "XD",
       "minVersion": "13.0"
     },
+    "icons": [
+      { "width": 48, "height": 48, "path": "src/images/48.png" },
+      { "width": 96, "height": 96, "path": "src/images/96.png" }
+    ],
     "uiEntryPoints": [
       {
         "type": "menu",

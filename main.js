@@ -99,7 +99,7 @@ exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/li
 
 
 // module
-exports.push([module.i, "body {\n  font: 12px sans-serif;\n  margin: 0;\n  padding: 0;\n  overflow-x: hidden;\n}\n\n.all-humaaans {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: flex-start;\n  align-items: center;\n  margin-top: 10px;\n  padding-bottom: 33px;\n}\n\n.svgInline.svgInline--loaded {\n  height: 200px;\n  width: calc(25%);\n  transition: border 300ms ease-in-out;\n  border-bottom: 1px solid #e5e5e5;\n  overflow: hidden;\n  cursor: pointer;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 5px;\n}\n\n.svgInline {\n  border-right: 1px solid #efe5e5;\n}\n\n.credits {\n  position: fixed;\n  bottom: -1px;\n  border-top: 1px solid #e5e5e5;\n  background: #fff;\n  z-index: 1;\n  width: 100%;\n  padding: 10px 0px;\n  color: #333;\n  text-align: center;\n}\n\n.credits a {\n  color: #18A0FB;\n  text-decoration: none;\n}\n\na:hover {\n  text-decoration: underline;\n}\n\n#create {\n  box-shadow: none;\n  background: #18A0FB;\n  color: white;\n}\n/* \n.InputAddOn {\n  display: flex;\n  align-items: center;\n  padding: 0 10px;\n}\n\n.InputAddOn-field {\n  flex: 1;\n  border: 1px solid #e5e5e5;\n  outline: none;\n  font-size: 14px;\n  padding: 10px 10px;\n  padding-left: 40px;\n  margin-left: -33px;\n  margin-right: -9px;\n}\n\n.InputAddOn-field:hover,\n.InputAddOn-field:focus {\n  border-color: #18A0FB;\n} */\n/* \n.InputAddOn-item {\n  z-index: 2;\n  color: #afaaaa;\n} */\n\n.no-result {\n  flex: 1;\n  margin-top: 30px;\n  font-size: 18px;\n  text-align: center;\n}\n\n/* input:hover {\n  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);\n} */\n\nbutton:focus {\n  box-shadow: inset 0 0 0 2px #18A0FB;\n}\n\n#create:focus {\n  box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.3);\n}\n.pablo {\n  margin-left: -3px;\n}\n.pablo,.tkmadeit {\n  display: flex;\n  justify-content: flex-start;\n}\n\n.pablo a {\n  margin-left: -10px;\n}\n\n.success-screen {\n  margin-top: 100px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.success-actions {\n  display: flex;\n}", ""]);
+exports.push([module.i, "body {\n  font: 12px sans-serif;\n  margin: 0;\n  padding: 0;\n  overflow-x: hidden;\n}\n\n.all-humaaans {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: flex-start;\n  align-items: center;\n  margin-top: 10px;\n  padding-bottom: 33px;\n}\n\n.svgInline.svgInline--loaded {\n  height: 200px;\n  width: calc(25%);\n  transition: border 300ms ease-in-out;\n  border-bottom: 1px solid #e5e5e5;\n  overflow: hidden;\n  cursor: pointer;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 5px;\n}\n\n.svgInline {\n  border-right: 1px solid #efe5e5;\n}\n\n.credits {\n  position: fixed;\n  bottom: -1px;\n  border-top: 1px solid #e5e5e5;\n  background: #fff;\n  z-index: 1;\n  width: 100%;\n  padding: 10px 0px;\n  color: #333;\n  text-align: center;\n}\n\n.credits a {\n  color: #18A0FB;\n  text-decoration: none;\n}\n\na:hover {\n  text-decoration: underline;\n}\n\n#create {\n  box-shadow: none;\n  background: #18A0FB;\n  color: white;\n}\n/* \n.InputAddOn {\n  display: flex;\n  align-items: center;\n  padding: 0 10px;\n}\n\n.InputAddOn-field {\n  flex: 1;\n  border: 1px solid #e5e5e5;\n  outline: none;\n  font-size: 14px;\n  padding: 10px 10px;\n  padding-left: 40px;\n  margin-left: -33px;\n  margin-right: -9px;\n}\n\n.InputAddOn-field:hover,\n.InputAddOn-field:focus {\n  border-color: #18A0FB;\n} */\n/* \n.InputAddOn-item {\n  z-index: 2;\n  color: #afaaaa;\n} */\n\n.no-result {\n  flex: 1;\n  margin-top: 30px;\n  font-size: 18px;\n  text-align: center;\n}\n\n/* input:hover {\n  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);\n} */\n\nbutton:focus {\n  box-shadow: inset 0 0 0 2px #18A0FB;\n}\n\n#create:focus {\n  box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.3);\n}\n.pablo {\n  display: flex;\n  align-items: flex-start;\n  flex: 1;\n}\n.pablo,.tkmadeit {\n  display: flex;\n  justify-content: flex-start;\n}\n\n.pablo a {\n  margin-left: 5px;\n}\n.header-item {\n  display: flex;\n  flex: 1;\n  font-size: 16px;\n  font-weight: bold;\n}\n.close-button {\n  margin-right: auto;\n}\n.success-screen {\n  margin-top: 100px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n.success-actions {\n  display: flex;\n}", ""]);
 
 // exports
 
@@ -29270,18 +29270,28 @@ class Credit extends React.Component {
         "div",
         { className: "pablo" },
         React.createElement(
-          "h1",
-          null,
-          " Humaaans by"
-        ),
-        React.createElement(
-          "h1",
-          null,
+          "div",
+          { className: "header-item" },
+          React.createElement(
+            "span",
+            null,
+            "Humaaans by"
+          ),
           React.createElement(
             "a",
-            { style: { display: 'inline-block' }, className: "", href: "https://twitter.com/pablostanley" },
+            { className: "", href: "https://twitter.com/pablostanley" },
             "Pablo Stanley"
           )
+        ),
+        React.createElement(
+          "button",
+          {
+            "uxp-variant": "secondary",
+            onClick: () => {
+              this.props.dialog.close();
+            }
+          },
+          "Close"
         )
       ),
       React.createElement(
@@ -29551,7 +29561,7 @@ class App extends React.Component {
     return React.createElement(
       "div",
       { style: styles.wrapper },
-      React.createElement(Credit, null),
+      React.createElement(Credit, { dialog: dialog }),
       showSuccess ? React.createElement(SuccessScreen, { dialog: dialog, backToIllustrations: this.backToIllustrations }) : React.createElement(
         "div",
         null,

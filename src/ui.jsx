@@ -152,7 +152,7 @@ class App extends React.Component {
     };
     return (
       <div style={styles.wrapper}>
-        <Credit />
+        <Credit dialog={dialog}/>
         {showSuccess ? (
           <SuccessScreen dialog={dialog} backToIllustrations={this.backToIllustrations}/>
         ) : (
